@@ -1,28 +1,14 @@
-﻿
-Microsoft Visual Studio Solution File, Format Version 11.00
-# Visual Studio 2010
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WPFSoundVisualizationLib", "WPFSoundVisualizationLibrary\WPFSoundVisualizationLib.csproj", "{90F96222-1C39-4A19-ABE8-1B00FB330985}"
+﻿Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.10.0.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WPFSoundVisualizationLib", "WPFSoundVisualizationLibrary\WPFSoundVisualizationLib.csproj", "{90F96222-1C39-4A19-ABE8-1B00FB330985}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sample_BASS", "Sample_BASS\Sample_BASS.csproj", "{5F521021-8F7B-40B2-97FB-D72413039BB0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Sample_BASS", "Sample_BASS\Sample_BASS.csproj", "{5F521021-8F7B-40B2-97FB-D72413039BB0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sample_NAudio", "Sample_NAudio\Sample_NAudio.csproj", "{FB33403B-8CD4-490A-B740-6D5A5D932318}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Sample_NAudio", "Sample_NAudio\Sample_NAudio.csproj", "{FB33403B-8CD4-490A-B740-6D5A5D932318}"
 EndProject
 Global
-	GlobalSection(TeamFoundationVersionControl) = preSolution
-		SccNumberOfProjects = 4
-		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
-		SccTeamFoundationServer = https://tfs.codeplex.com/tfs/tfs27
-		SccLocalPath0 = .
-		SccProjectUniqueName1 = WPFSoundVisualizationLibrary\\WPFSoundVisualizationLib.csproj
-		SccProjectName1 = WPFSoundVisualizationLibrary
-		SccLocalPath1 = WPFSoundVisualizationLibrary
-		SccProjectUniqueName2 = Sample_BASS\\Sample_BASS.csproj
-		SccProjectName2 = Sample_BASS
-		SccLocalPath2 = Sample_BASS
-		SccProjectUniqueName3 = Sample_NAudio\\Sample_NAudio.csproj
-		SccProjectName3 = Sample_NAudio
-		SccLocalPath3 = Sample_NAudio
-	EndGlobalSection
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Debug|Mixed Platforms = Debug|Mixed Platforms
@@ -65,5 +51,8 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A6A9B3A6-D5E7-4E5E-8F3F-9B9E4F8FB3F7}
 	EndGlobalSection
 EndGlobal
