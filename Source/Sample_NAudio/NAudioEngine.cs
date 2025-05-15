@@ -216,7 +216,7 @@ namespace Sample_NAudio
         }
 
         private void GenerateWaveformData(string path)
-        {
+        {            
             if (waveformGenerateWorker.IsBusy)
             {
                 pendingWaveformPath = path;

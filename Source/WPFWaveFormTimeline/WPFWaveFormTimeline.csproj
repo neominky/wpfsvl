@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <OutputType>library</OutputType>
+    <TargetFramework>net9.0-windows</TargetFramework>
+    <UseWPF>true</UseWPF>
+    <RootNamespace>WPFWaveFormTimeline</RootNamespace>
+    <AssemblyName>WPFWaveFormTimeline</AssemblyName>
+    <GenerateDocumentationFile>true</GenerateDocumentationFile>
+    <SignAssembly>true</SignAssembly>
+    <GenerateAssemblyInfo>true</GenerateAssemblyInfo>
+    <Version>1.0.0</Version>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+    <FileVersion>1.0.0.0</FileVersion>
+    <Product>WPF WaveForm Timeline Control</Product>
+    <Copyright>Copyright © Jacob Johnston 2011 - 2012</Copyright>
+    <DebugType Condition="'$(Configuration)' == 'Debug'">full</DebugType>
+    <DebugSymbols Condition="'$(Configuration)' == 'Debug'">true</DebugSymbols>
+    <Optimize Condition="'$(Configuration)' == 'Debug'">false</Optimize>
+    <DefineConstants Condition="'$(Configuration)' == 'Debug'">DEBUG;TRACE</DefineConstants>
+    <ErrorReport Condition="'$(Configuration)' == 'Debug'">prompt</ErrorReport>
+    <WarningLevel Condition="'$(Configuration)' == 'Debug'">4</WarningLevel>
+    <DebugType Condition="'$(Configuration)' == 'Release'">pdbonly</DebugType>
+    <Optimize Condition="'$(Configuration)' == 'Release'">true</Optimize>
+    <DefineConstants Condition="'$(Configuration)' == 'Release'">TRACE</DefineConstants>
+    <ErrorReport Condition="'$(Configuration)' == 'Release'">prompt</ErrorReport>
+    <WarningLevel Condition="'$(Configuration)' == 'Release'">4</WarningLevel>
+  </PropertyGroup>
+  
+  <ItemGroup>
+    <EmbeddedResource Include="WPFWaveFormTimeline.Icon.Large.png" />
+  </ItemGroup>
+  
+
+</Project> 
